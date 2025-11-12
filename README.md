@@ -159,7 +159,5 @@ Si tienes tiempo restante, puedes agregar alguno de los siguientes extras:
 
 ## 🕒 Tiempo estimado total: **3 horas**
 
----
-
 ¡Éxito con la prueba! 💪
 Queremos ver cómo estructuras tu solución y cómo te desenvuelves resolviendo un reto realista, más allá de la perfección del resultado.
