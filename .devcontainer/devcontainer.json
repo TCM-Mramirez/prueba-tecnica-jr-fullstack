@@ -1,7 +1,6 @@
 {
     "name": "Prueba Tecnica JR React + Laravel",
     "dockerFile": "Dockerfile",
-    "workspaceFolder": "/workspace",
     "postCreateCommand": "bash .devcontainer/setup.sh",
     "forwardPorts": [8000, 5173],
     "portsAttributes": {
