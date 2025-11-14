@@ -1,0 +1,37 @@
+{
+    "name": "Prueba Tecnica JR React + Laravel",
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "forwardPorts": [8000, 5173],
+    "portsAttributes": {
+        "5173": {
+            "label": "React App",
+            "onAutoForward": "openPreview"
+        },
+        "8000": {
+            "label": "Laravel Api",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "bmewburn.vscode-inteliphense-client",
+                "ms-vscode.vscode-typescript-next",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "dsznajder.es7-react-js-snippets",
+                "bradlc.vscode-tailwindcss"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "[php]": {
+                    "editor.defaultFormatter": "bmewburn.vscode-inteliphense-client"
+                }
+            }
+        }
+    }
+}
